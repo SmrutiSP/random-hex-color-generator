@@ -1,0 +1,30 @@
+:root {
+    --controls-background-color: blue;
+    --font-color: white;
+    --generated-background-color: white;
+}
+
+.color-generator {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    background-color: var(--controls-background-color);    
+    font-family: 'Roboto Slab', serif;
+    color: var(--font-color);
+    margin: 200px auto;
+    border-radius: 8px;
+}
+
+.display p {
+    font-size: 40px;
+}
+
+body {
+    background-color: var(--generated-background-color);
+}
+
+.generate-color {
+    display: inline-block;
+    height: 40px;
+    cursor: pointer;
+}
